@@ -29,7 +29,7 @@ public class Main{
         q.offer(new Node(x, y));
         while (!q.isEmpty()) {
             Node node = q.poll();
-            x = node.getX();
+            x =node.getX();
             y = node.getY();
             for (int i = 0; i < 4; i++) {
                 int nx = x + dx[i];
